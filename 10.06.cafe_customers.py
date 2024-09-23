@@ -9,7 +9,7 @@ from time import sleep
 class Table:  # Столы
     def __init__(self, number: int, is_busy):
         self.number = number  # Номер стола
-        self.is_busy = is_busy
+        self.is_busy = is_busy # Стол занят
 
 
 class Cafe:  # Кафе
